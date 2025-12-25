@@ -1,0 +1,76 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Portfolio | Your Name</title>
+  <link rel="stylesheet" href="assets/style.css" />
+</head>
+<body>
+  <div class="container">
+    <div class="nav">
+      <div class="brand"><a class="brand" href="index.html">Your Name</a></div>
+      <div class="links">
+        <a href="projects/index.html">Projects</a>
+        <a href="about.html">About</a>
+        <a href="contact.html">Contact</a>
+      </div>
+    </div>
+    
+<div class="hero">
+  <div class="card">
+    <h1 class="h1">Your Name</h1>
+    <div class="kv">
+      <span class="badge">Data Science (in progress)</span>
+      <span class="badge">Python</span>
+      <span class="badge">SQL</span>
+      <span class="badge">EDA</span>
+      <span class="badge">Machine Learning</span>
+    </div>
+    <p class="p" style="margin-top:12px">
+      I’m currently employed and building a public portfolio to document my growth toward a future Data Scientist role.
+      This site showcases selected projects, my workflow, and what I’m learning next.
+    </p>
+    <div class="kv">
+      <a href="#" target="_blank" rel="noreferrer">GitHub</a>
+      <a href="#" target="_blank" rel="noreferrer">LinkedIn</a>
+      <a href="contact.html">Email</a>
+    </div>
+    <hr />
+    <h2 class="h2">Featured projects (3–5)</h2>
+    <ul class="list">
+      <li><a href="projects/project-template.html">Project 1 — short problem + outcome</a></li>
+      <li><a href="projects/project-template.html">Project 2 — short problem + outcome</a></li>
+      <li><a href="projects/project-template.html">Project 3 — short problem + outcome</a></li>
+    </ul>
+    <p class="small">Tip: keep this list short and link each item to a dedicated project page.</p>
+  </div>
+
+  <div class="card">
+    <h2 class="h2">Quick facts</h2>
+    <p class="p">Location: Mexico (Remote/Hybrid)</p>
+    <p class="p">Languages: Spanish (native), English (advanced)</p>
+    <p class="p">Interests: data storytelling, experimentation, business impact</p>
+    <img src="assets/img/profile-placeholder.svg" alt="Profile placeholder" style="width:100%;max-width:260px;border-radius:18px;margin-top:10px;border:1px solid var(--border)" />
+    <p class="small">Photo is optional but recommended by Career Prep.</p>
+  </div>
+</div>
+
+<div class="card" style="margin-top:14px">
+  <h2 class="h2">How to read this portfolio</h2>
+  <ul class="list">
+    <li>Each project explains <strong>what I did, why I did it, and what I learned</strong>.</li>
+    <li>Projects include <strong>visual evidence</strong> (charts, screenshots) and working links.</li>
+    <li>I update this portfolio as I complete new sprints and improve past work.</li>
+  </ul>
+</div>
+
+    <div class="footer">
+      Built on GitHub Pages • Last updated: <span id="lu"></span>
+    </div>
+  </div>
+<script>
+  document.getElementById("lu").textContent = new Date().toISOString().slice(0,10);
+</script>
+</body>
+</html>

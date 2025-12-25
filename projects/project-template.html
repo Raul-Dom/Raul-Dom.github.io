@@ -1,0 +1,89 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Project | Your Name</title>
+  <link rel="stylesheet" href="../assets/style.css" />
+</head>
+<body>
+  <div class="container">
+    <div class="nav">
+      <div class="brand"><a class="brand" href="../index.html">Your Name</a></div>
+      <div class="links">
+        <a href="index.html">Projects</a>
+        <a href="../about.html">About</a>
+        <a href="../contact.html">Contact</a>
+      </div>
+    </div>
+
+    <div class="card">
+      <h1 class="h1">Project Title</h1>
+      <p class="p"><strong>TL;DR:</strong> 2–3 lines: objective + approach + outcome. (Keep it clear and direct.)</p>
+
+      <div class="kv">
+        <span class="badge">Python</span>
+        <span class="badge">SQL</span>
+        <span class="badge">EDA</span>
+        <span class="badge">ML</span>
+      </div>
+
+      <hr />
+
+      <h2 class="h2">1) Context & Goal</h2>
+      <ul class="list">
+        <li>Business or learning context (1–2 lines)</li>
+        <li>Goal / question you answered</li>
+        <li>Success criteria (metric or expected output)</li>
+      </ul>
+
+      <h2 class="h2">2) Data</h2>
+      <ul class="list">
+        <li>Source(s), tables/files used</li>
+        <li>Size (rows/columns, approx.)</li>
+        <li>Main challenges: missing values, duplicates, outliers, bias</li>
+      </ul>
+
+      <h2 class="h2">3) Approach (what I did & why)</h2>
+      <ul class="list">
+        <li>Cleaning & preprocessing decisions</li>
+        <li>EDA: 2–3 key insights</li>
+        <li>Modeling (if applicable): method, validation, metric</li>
+        <li>Interpretation / trade-offs</li>
+      </ul>
+
+      <h2 class="h2">4) Results</h2>
+      <ul class="list">
+        <li>Key findings (3–5 bullets)</li>
+        <li>Metric(s) achieved (if modeling)</li>
+        <li>Recommendation / next step</li>
+      </ul>
+
+      <h2 class="h2">5) Visual Evidence</h2>
+      <p class="p">Add 1–3 images, charts, or a short Loom demo.</p>
+      <img src="../assets/img/profile-placeholder.svg" alt="Replace with a project screenshot" style="width:100%;max-width:680px;border-radius:18px;border:1px solid var(--border)" />
+
+      <hr />
+
+      <h2 class="h2">Links</h2>
+      <ul class="list">
+        <li>Repository: <a href="#" target="_blank" rel="noreferrer">GitHub repo link</a></li>
+        <li>Notebook / report: <a href="#" target="_blank" rel="noreferrer">Link</a></li>
+        <li>Demo (optional): <a href="#" target="_blank" rel="noreferrer">Streamlit/Tableau/Power BI</a></li>
+        <li>Video demo (optional): <a href="#" target="_blank" rel="noreferrer">Loom</a></li>
+      </ul>
+
+      <p class="small">
+        Career Prep reminder: don’t show only the final result—explain the full process and what you learned.
+      </p>
+    </div>
+
+    <div class="footer">
+      Built on GitHub Pages • Last updated: <span id="lu"></span>
+    </div>
+  </div>
+<script>
+  document.getElementById("lu").textContent = new Date().toISOString().slice(0,10);
+</script>
+</body>
+</html>
