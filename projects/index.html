@@ -3,13 +3,13 @@
 <head>
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width,initial-scale=1" />
-  <title>Projects | Your Name</title>
+  <title>Projects | Raúl Domínguez</title>
   <link rel="stylesheet" href="../assets/style.css" />
 </head>
 <body>
   <div class="container">
     <div class="nav">
-      <div class="brand"><a class="brand" href="../index.html">Your Name</a></div>
+      <div class="brand"><a class="brand" href="../index.html">Raúl Domínguez — Data Science Portfolio</a></div>
       <div class="links">
         <a href="index.html">Projects</a>
         <a href="../about.html">About</a>
@@ -20,31 +20,39 @@
     <div class="card">
       <h1 class="h1">Projects</h1>
       <p class="p">
-        Select <strong>3–5</strong> key projects (minimum 2). Each one should include context, your analysis, conclusions,
-        and visual evidence. Quality &gt; quantity.
+        This section showcases selected projects that document my growth toward a future Data Scientist role.
+        Each project includes context, my analysis, conclusions, and visual evidence. Quality &gt; quantity.
       </p>
 
       <div class="grid">
         <div class="card">
-          <h2 class="h2"><a href="project-template.html">Project 1 title</a></h2>
-          <p class="p">1–2 lines: problem + approach + outcome.</p>
-          <p class="small">Tech: Python, SQL, ...</p>
+          <h2 class="h2"><a href="instacart-eda.html">Instacart — EDA & Data Cleaning</a></h2>
+          <p class="p">Exploratory analysis across multiple related tables to understand customer purchase patterns and reorder behavior.</p>
+          <p class="small">Tech: Python, Pandas, EDA</p>
         </div>
+
         <div class="card">
-          <h2 class="h2"><a href="project-template.html">Project 2 title</a></h2>
-          <p class="p">1–2 lines: problem + approach + outcome.</p>
-          <p class="small">Tech: Python, ML, ...</p>
+          <h2 class="h2"><a href="megaline-plans.html">Megaline — Plan Revenue Analysis</a></h2>
+          <p class="p">Analytical case study comparing two mobile plans using usage data and business rules to support a pricing decision.</p>
+          <p class="small">Tech: Python, Pandas, Statistics</p>
+        </div>
+
+        <div class="card">
+          <h2 class="h2"><a href="sql-weather-transactions.html">SQL Case — Transactions & Weather</a></h2>
+          <p class="p">SQL joins and filtering to connect operational transactions with weather conditions and answer targeted questions.</p>
+          <p class="small">Tech: SQL</p>
         </div>
       </div>
 
       <hr />
-      <p class="small">Tip: Add a Loom demo link if a project has an interactive component.</p>
+      <p class="small">Tip: If a project is interactive (e.g., Streamlit), add a short Loom demo link in the project page.</p>
     </div>
 
     <div class="footer">
       Built on GitHub Pages • Last updated: <span id="lu"></span>
     </div>
   </div>
+
 <script>
   document.getElementById("lu").textContent = new Date().toISOString().slice(0,10);
 </script>
