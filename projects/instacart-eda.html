@@ -1,0 +1,62 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Instacart — EDA & Data Cleaning | Raúl Domínguez</title>
+  <link rel="stylesheet" href="../assets/style.css" />
+</head>
+<body>
+  <div class="container">
+    <div class="nav">
+      <div class="brand"><a class="brand" href="../index.html">Raúl Domínguez — Data Science Portfolio</a></div>
+      <div class="links">
+        <a href="index.html">Projects</a>
+        <a href="../about.html">About</a>
+        <a href="../contact.html">Contact</a>
+      </div>
+    </div>
+
+    <div class="card">
+      <p class="small"><a href="index.html">← Back to Projects</a></p>
+
+      <h1 class="h1">Instacart — EDA & Data Cleaning</h1>
+      <p class="p">
+        Exploratory analysis using multiple related tables to understand customer purchase patterns and reorder behavior.
+        This project highlights data validation, cleaning decisions, and insight-driven analysis.
+      </p>
+
+      <h2 class="h2">Context & goal</h2>
+      <p class="p">
+        Explore a retail grocery dataset and answer questions about ordering behavior, focusing on patterns that could inform product and customer decisions.
+      </p>
+
+      <h2 class="h2">Approach</h2>
+      <ul class="list">
+        <li><strong>Data validation:</strong> checked keys, joins, and schema assumptions across tables</li>
+        <li><strong>Cleaning:</strong> handled missing values and duplicates with documented rationale</li>
+        <li><strong>EDA:</strong> explored ordering time patterns, basket behavior, and reorder-related signals</li>
+        <li><strong>Communication:</strong> summarized insights clearly, including limitations</li>
+      </ul>
+
+      <h2 class="h2">Links</h2>
+      <ul class="list">
+        <li>Repository: <a href="https://github.com/Raul-Dom/Instacart_eda" target="_blank" rel="noopener noreferrer">github.com/Raul-Dom/Instacart_eda</a></li>
+        <li>Notebook: <a href="https://github.com/Raul-Dom/Instacart_eda/blob/main/instacart_eda_clean.ipynb" target="_blank" rel="noopener noreferrer">instacart_eda_clean.ipynb</a></li>
+      </ul>
+
+      <p class="small">Last updated: <span id="lu"></span></p>
+    </div>
+
+    <div class="footer">
+      Built on GitHub Pages • Last updated: <span id="lu2"></span>
+    </div>
+  </div>
+
+<script>
+  const d = new Date().toISOString().slice(0,10);
+  document.getElementById("lu").textContent = d;
+  document.getElementById("lu2").textContent = d;
+</script>
+</body>
+</html>
