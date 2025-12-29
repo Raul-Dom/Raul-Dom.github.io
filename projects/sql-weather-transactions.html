@@ -1,0 +1,112 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Chicago Taxi — EDA & Hypothesis Testing (Weather) | Raúl Domínguez</title>
+  <link rel="stylesheet" href="../assets/style.css" />
+</head>
+<body>
+  <div class="container">
+    <div class="nav">
+      <div class="brand"><a class="brand" href="../index.html">Raúl Domínguez — Data Science Portfolio</a></div>
+      <div class="links">
+        <a href="index.html">Projects</a>
+        <a href="../about.html">About</a>
+        <a href="../contact.html">Contact</a>
+      </div>
+    </div>
+
+    <div class="card">
+      <p class="small"><a href="index.html">← Back to Projects</a></p>
+
+      <h1 class="h1">Chicago Taxi — EDA & Hypothesis Testing (Weather)</h1>
+      <p class="p">
+        Project combining exploratory analysis and hypothesis testing to understand taxi activity in Chicago and evaluate
+        whether trip duration from the Loop to O’Hare changes on rainy Saturdays.
+      </p>
+
+      <h2 class="h2">Context & goal</h2>
+      <ul class="list">
+        <li>Identify leading taxi companies by trip volume (Nov 15–16, 2017)</li>
+        <li>Find the top 10 dropoff neighborhoods by average trips (Nov 2017)</li>
+        <li>Test whether average trip duration (Loop → O’Hare) changes on rainy Saturdays</li>
+      </ul>
+
+      <h2 class="h2">Data</h2>
+      <ul class="list">
+        <li><code>project_sql_result_01.csv</code>: taxi company trip counts (Nov 15–16, 2017)</li>
+        <li><code>project_sql_result_04.csv</code>: average trips by dropoff neighborhood (Nov 2017)</li>
+        <li><code>project_sql_result_07.csv</code>: Loop → O’Hare trips with weather and duration</li>
+      </ul>
+
+      <h2 class="h2">Approach</h2>
+      <ul class="list">
+        <li><strong>Data checks:</strong> verified types, missing values, and basic consistency</li>
+        <li><strong>EDA:</strong> ranking + visualization for companies and neighborhoods</li>
+        <li><strong>Hypothesis testing:</strong> defined H0/H1, selected alpha, and compared rainy vs non-rainy Saturdays</li>
+      </ul>
+
+      <h2 class="h2">Hypothesis</h2>
+      <ul class="list">
+        <li><strong>H0:</strong> The average trip duration (Loop → O’Hare) is the same on rainy Saturdays and non-rainy Saturdays.</li>
+        <li><strong>H1:</strong> The average trip duration (Loop → O’Hare) is different on rainy Saturdays vs non-rainy Saturdays.</li>
+        <li><strong>Alpha:</strong> 0.05 (standard threshold to control false positives while keeping reasonable sensitivity)</li>
+      </ul>
+
+      <h2 class="h2">Key findings</h2>
+      <ul class="list">
+        <li>[EDA finding #1 — from the companies chart]</li>
+        <li>[EDA finding #2 — from the neighborhoods chart]</li>
+        <li>[Hypothesis test conclusion — interpret p-value vs alpha in plain English]</li>
+      </ul>
+
+      <h2 class="h2">Visual evidence</h2>
+      <p class="p">
+        Add 2–3 screenshots of your plots. Upload images to <code>assets/img/</code> and link them below.
+      </p>
+
+      <div class="grid">
+        <div class="card">
+          <p class="small"><strong>Figure 1 — Taxi companies (trips)</strong></p>
+          <img src="../assets/img/taxi_companies_trips.png" alt="Taxi companies trips"
+               style="width:100%;border-radius:18px;border:1px solid var(--border)" />
+          <p class="small">[1 sentence: what the chart shows]</p>
+        </div>
+
+        <div class="card">
+          <p class="small"><strong>Figure 2 — Top 10 dropoff neighborhoods</strong></p>
+          <img src="../assets/img/top10_dropoff_neighborhoods.png" alt="Top 10 dropoff neighborhoods"
+               style="width:100%;border-radius:18px;border:1px solid var(--border)" />
+          <p class="small">[1 sentence: what the chart shows]</p>
+        </div>
+
+        <div class="card">
+          <p class="small"><strong>Figure 3 — Duration: rainy vs non-rainy Saturdays</strong></p>
+          <img src="../assets/img/duration_rainy_vs_nonrainy.png" alt="Duration rainy vs non-rainy Saturdays"
+               style="width:100%;border-radius:18px;border:1px solid var(--border)" />
+          <p class="small">[1 sentence: what this comparison shows]</p>
+        </div>
+      </div>
+
+      <h2 class="h2">Links</h2>
+      <ul class="list">
+        <li>Repository: <a href="#" target="_blank" rel="noopener noreferrer">[Add GitHub repo link]</a></li>
+        <li>Notebook/report: <a href="#" target="_blank" rel="noopener noreferrer">[Add notebook link]</a></li>
+      </ul>
+
+      <p class="small">Last updated: <span id="lu"></span></p>
+    </div>
+
+    <div class="footer">
+      Built on GitHub Pages • Last updated: <span id="lu2"></span>
+    </div>
+  </div>
+
+<script>
+  const d = new Date().toISOString().slice(0,10);
+  document.getElementById("lu").textContent = d;
+  document.getElementById("lu2").textContent = d;
+</script>
+</body>
+</html>
