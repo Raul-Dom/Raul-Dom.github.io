@@ -1,0 +1,69 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Megaline — Plan Revenue Analysis | Raúl Domínguez</title>
+  <link rel="stylesheet" href="../assets/style.css" />
+</head>
+<body>
+  <div class="container">
+    <div class="nav">
+      <div class="brand"><a class="brand" href="../index.html">Raúl Domínguez — Data Science Portfolio</a></div>
+      <div class="links">
+        <a href="index.html">Projects</a>
+        <a href="../about.html">About</a>
+        <a href="../contact.html">Contact</a>
+      </div>
+    </div>
+
+    <div class="card">
+      <p class="small"><a href="index.html">← Back to Projects</a></p>
+
+      <h1 class="h1">Megaline — Plan Revenue Analysis</h1>
+      <p class="p">
+        Analytical case study comparing two mobile plans using user behavior and plan rules to support a pricing/business decision.
+        The focus is on clean assumptions, clear metrics, and defensible conclusions.
+      </p>
+
+      <h2 class="h2">Context & goal</h2>
+      <p class="p">
+        Compare two plans and determine whether one generates significantly more revenue than the other, based on customer usage patterns.
+      </p>
+
+      <h2 class="h2">Approach</h2>
+      <ul class="list">
+        <li><strong>Data prep:</strong> cleaned usage tables, validated joins, and created monthly user-level aggregates</li>
+        <li><strong>Business logic:</strong> implemented plan rules to compute monthly revenue per user</li>
+        <li><strong>Analysis:</strong> compared distributions and summarized key drivers</li>
+        <li><strong>Statistics:</strong> tested differences to support conclusions (where appropriate)</li>
+      </ul>
+
+      <h2 class="h2">Key findings</h2>
+      <ul class="list">
+        <li>[Replace with your real finding #1]</li>
+        <li>[Replace with your real finding #2]</li>
+        <li>[Replace with your real finding #3]</li>
+      </ul>
+
+      <h2 class="h2">Links</h2>
+      <ul class="list">
+        <li>Repository: <a href="#" target="_blank" rel="noopener noreferrer">[Add GitHub repo link]</a></li>
+        <li>Notebook/report: <a href="#" target="_blank" rel="noopener noreferrer">[Add notebook link]</a></li>
+      </ul>
+
+      <p class="small">Last updated: <span id="lu"></span></p>
+    </div>
+
+    <div class="footer">
+      Built on GitHub Pages • Last updated: <span id="lu2"></span>
+    </div>
+  </div>
+
+<script>
+  const d = new Date().toISOString().slice(0,10);
+  document.getElementById("lu").textContent = d;
+  document.getElementById("lu2").textContent = d;
+</script>
+</body>
+</html>
