@@ -56,41 +56,33 @@
 
       <h2 class="h2">Key findings</h2>
       <ul class="list">
-        <li>Top taxi companies concentrate a large share of total trips on Nov 15–16, 2017.</li>
-        <li>A small set of neighborhoods accounts for the highest average dropoffs in Nov 2017.</li>
-        <li>Hypothesis testing compares rainy vs non-rainy Saturdays to evaluate whether trip duration differs meaningfully.</li>
+        <li><strong>Top taxi companies:</strong> Flash Cab led trip volume on Nov 15–16, 2017, followed by Taxi Affiliation Services and Medallion Leasing.</li>
+        <li><strong>Top dropoff areas:</strong> The Loop and River North concentrated the highest average dropoffs in Nov 2017.</li>
+        <li><strong>Hypothesis test:</strong> Rainy Saturdays had longer trips (mean ≈ 2427s vs 2000s). With p-value ≈ 6.74e-12 &lt; 0.05, we reject H0.</li>
       </ul>
 
       <h2 class="h2">Visual evidence</h2>
+      <p class="p">Screenshots of the main plots from the notebook.</p>
 
       <div class="grid">
         <div class="card">
           <p class="small"><strong>Figure 1 — Taxi companies (trips)</strong></p>
           <img src="../assets/img/taxi_companies_trips.png" alt="Taxi companies trips"
-               style="width:100%;display:block;margin:10px auto 0;border-radius:18px;border:1px solid var(--border)" />
-          <p class="small">Trip volume by taxi company (top companies dominate total trips).</p>
+               style="width:100%;border-radius:18px;border:1px solid var(--border)" />
+          <p class="small">Trip counts by company (Nov 15–16, 2017).</p>
         </div>
 
         <div class="card">
           <p class="small"><strong>Figure 2 — Top 10 dropoff neighborhoods</strong></p>
           <img src="../assets/img/top10_dropoff_neighborhoods.png" alt="Top 10 dropoff neighborhoods"
-               style="width:100%;display:block;margin:10px auto 0;border-radius:18px;border:1px solid var(--border)" />
-          <p class="small">Average dropoffs by neighborhood (top 10 areas).</p>
-        </div>
-
-        <div class="card">
-          <p class="small"><strong>Figure 3 — Duration: rainy vs non-rainy Saturdays</strong></p>
-          <img src="../assets/img/duration_rainy_vs_nonrainy.png" alt="Duration rainy vs non-rainy Saturdays"
-               style="width:100%;display:block;margin:10px auto 0;border-radius:18px;border:1px solid var(--border)" />
-          <p class="small">Trip duration comparison between rainy and non-rainy Saturdays.</p>
+               style="width:100%;border-radius:18px;border:1px solid var(--border)" />
+          <p class="small">Neighborhoods with the highest average completed trips (Nov 2017).</p>
         </div>
       </div>
 
       <h2 class="h2">Links</h2>
       <ul class="list">
         <li>Repository: <a href="https://github.com/Raul-Dom/Chicago_taxi_weather" target="_blank" rel="noopener noreferrer">github.com/Raul-Dom/Chicago_taxi_weather</a></li>
-
-        <!-- CAMBIA SOLO ESTA LÍNEA si tu notebook tiene otro nombre o está en otra carpeta -->
         <li>Notebook/report: <a href="https://github.com/Raul-Dom/Chicago_taxi_weather/blob/main/Proyecto_S8_Portfolio.ipynb" target="_blank" rel="noopener noreferrer">Proyecto_S8_Portfolio.ipynb</a></li>
       </ul>
 
