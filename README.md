@@ -1,44 +1,39 @@
-# Data Science Portfolio (GitHub Pages) — Starter Template
+# Raúl Domínguez — Data Science Portfolio
 
-This repo is a simple, mobile-friendly portfolio site you can publish with **GitHub Pages**.
-It follows the Career Prep guidance: clear navigation, strong project documentation, visuals, and links that work.
+This repository hosts my personal Data Science portfolio website (GitHub Pages).  
+It highlights selected end-to-end projects showcasing data cleaning, EDA, hypothesis testing, and clear communication of results.
 
-## 1) Publish with GitHub Pages (no coding needed)
-1. Create a new repository on GitHub.
-   - Option A (recommended): **USERNAME.github.io** (gives you: https://USERNAME.github.io)
-   - Option B: any name (gives you: https://USERNAME.github.io/REPO_NAME)
-2. Upload this folder’s contents to the repo root (same level as `index.html`).
-3. Go to: **Settings → Pages**
-   - Source: **Deploy from a branch**
-   - Branch: **main** (or master) / **root**
-   - Save
-4. Wait for the Pages URL to appear in Settings → Pages.
+## 🌐 Live site
+- Portfolio: https://raul-dom.github.io/
 
-## 2) What to edit first (5 minutes)
-- `index.html`: your headline, short bio, featured projects
-- `projects/index.html`: your project list (3–5 projects)
-- `about.html`: “About me” (2–3 paragraphs) + “What I’m learning now”
-- `contact.html`: email + links
+## 📌 Featured projects
+- **Instacart — EDA & Data Cleaning**  
+  Exploratory analysis across multiple related tables to understand customer purchase patterns and reorder behavior.  
+  Project page: https://raul-dom.github.io/projects/instacart-eda.html  
+  Repo: https://github.com/Raul-Dom/Instacart_eda
 
-## 3) Career Prep “must-haves” checklist (portfolio)
-- Explain **what you did, why you did it, and what you learned**
-- Keep a **clear structure**: Home / Projects / About / Contact
-- Show only your best work: **quality > quantity** (aim for **3–5** projects; minimum **2**)
-- Add **visual evidence**: screenshots, charts, GIFs, short Loom demo
-- Keep links working (repos, demos, notebooks)
-- Review on **mobile** before sharing
-- Update periodically (don’t let it go stale)
+- **Megaline — Plan Revenue Analysis**  
+  Analytical case study comparing two mobile plans using usage data and plan rules; includes statistical testing (Welch’s t-test).  
+  Project page: https://raul-dom.github.io/projects/megaline-plans.html  
+  Repo: https://github.com/Raul-Dom/Megaline_plans
 
-## 4) Add a new project page
-1. Copy: `projects/project-template.html`
-2. Rename it: `projects/<your-project-slug>.html` (example: `projects/instacart-eda.html`)
-3. Add it to `projects/index.html`
+- **Chicago Taxi — EDA & Hypothesis Testing (Weather)**  
+  EDA + hypothesis testing to evaluate whether trip duration (Loop → O’Hare) changes on rainy Saturdays.  
+  Project page: https://raul-dom.github.io/projects/chicago-taxi-weather.html  
+  Repo: https://github.com/Raul-Dom/Chicago_taxi_weather
 
-## 5) Add images
-Put images in: `assets/img/`
-Then reference them like:
-`<img src="../assets/img/instacart-chart.png" alt="Instacart chart" />`
+## 🧭 Site structure
+- `index.html` — Home / overview + featured projects
+- `projects/` — Project list + individual project pages
+- `about.html` — Background + current learning focus
+- `contact.html` — Email + social links
+- `assets/` — CSS and images
 
----
+## 🔧 Tech
+- HTML + CSS (lightweight, mobile-first)
+- Hosted with GitHub Pages
 
-If you want, you can later migrate this to Jekyll or a theme, but this template is intentionally lightweight and fast.
+## 📬 Contact
+- Email: raul.dom.av@gmail.com  
+- LinkedIn: https://www.linkedin.com/in/ra%C3%BAl-dom%C3%ADnguez-aviles-45a0a2295/  
+- GitHub: https://github.com/Raul-Dom
